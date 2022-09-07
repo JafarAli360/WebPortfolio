@@ -1,8 +1,15 @@
 // JavaScript Portfolio
+const masuk = confirm("Yakin arep melbu?");
+if (masuk) {
+  const name = prompt("Sopo Jenengmu?");
+  alert(`Hello ${name}`);
+} else {
+  alert("Sudah Terlanjur Kesini");
+}
 
 window.addEventListener("DOMContentLoaded", (event) => {
   // Navbar shrink function
-  var navbarShrink = function () {
+  let navbarShrink = function () {
     const navbarCollapsible = document.body.querySelector("#mainNav");
     if (!navbarCollapsible) {
       return;
