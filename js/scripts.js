@@ -1,11 +1,11 @@
 // JavaScript Portfolio
-const masuk = confirm("Mau Stalkers?");
-if (masuk) {
-  const name = prompt("Masukkan Namamu?");
-  alert(`Welcome in My Portfolio ${name}`);
-} else {
-  alert("Ente kadang-kadang ente, Sudah Terlanjur Kesini");
-}
+// const masuk = confirm("Mau Stalkers?");
+// if (masuk) {
+//   const name = prompt("Masukkan Namamu?");
+//   alert(`Welcome in My Portfolio ${name}`);
+// } else {
+//   alert("Ente kadang-kadang ente, Sudah Terlanjur Kesini");
+// }
 
 window.addEventListener("DOMContentLoaded", (event) => {
   // Navbar shrink function
