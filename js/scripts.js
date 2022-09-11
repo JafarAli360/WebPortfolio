@@ -1,10 +1,10 @@
 // JavaScript Portfolio
-const masuk = confirm("Yakin arep melbu?");
+const masuk = confirm("Mau Stalkers?");
 if (masuk) {
-  const name = prompt("Sopo Jenengmu?");
-  alert(`Hello ${name}`);
+  const name = prompt("Masukkan Namamu?");
+  alert(`Welcome in My Portfolio ${name}`);
 } else {
-  alert("Sudah Terlanjur Kesini");
+  alert("Ente kadang-kadang ente, Sudah Terlanjur Kesini");
 }
 
 window.addEventListener("DOMContentLoaded", (event) => {
@@ -21,13 +21,13 @@ window.addEventListener("DOMContentLoaded", (event) => {
     }
   };
 
-  // Shrink the navbar
+  // Shrink Navbar
   navbarShrink();
 
-  // Shrink the navbar when page is scrolled
+  // Shrink Navbar Scroll
   document.addEventListener("scroll", navbarShrink);
 
-  // Activate Bootstrap scrollspy on the main nav element
+  // Bootstrap
   const mainNav = document.body.querySelector("#mainNav");
   if (mainNav) {
     new bootstrap.ScrollSpy(document.body, {
@@ -36,7 +36,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     });
   }
 
-  // Collapse responsive navbar when toggler is visible
+  // Collapse responsive navbar
   const navbarToggler = document.body.querySelector(".navbar-toggler");
   const responsiveNavItems = [].slice.call(document.querySelectorAll("#navbarResponsive .nav-link"));
   responsiveNavItems.map(function (responsiveNavItem) {
