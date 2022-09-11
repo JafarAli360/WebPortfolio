@@ -1,12 +1,4 @@
 // JavaScript Portfolio
-const masuk = confirm("Mau Stalkers?");
-if (masuk) {
-  const name = prompt("Masukkan Namamu?");
-  alert(`Welcome in My Portfolio ${name}`);
-} else {
-  alert("Ente kadang-kadang ente, Sudah Kepencet");
-}
-
 window.addEventListener("DOMContentLoaded", (event) => {
   // Navbar shrink function
   let navbarShrink = function () {
